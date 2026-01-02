@@ -3,22 +3,35 @@ loaderVersion="[4,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="tharidiathings"
-version="1.0.0"
-displayName="Tharidia Things - Dice"
+modId="tharidia_littledice"
+version="0.1.0-alpha"
+displayName="Tharidia - Little Dice"
 description='''
-A simple dice item that can be thrown and lands on a random face.
-'''
-authors="THproject"
+[ALPHA - Under Active Development]
 
-[[dependencies.tharidiathings]]
+Part of the Tharidia Project - a medieval fantasy roleplay Minecraft server with deeply customized mechanics.
+
+This standalone module, extracted from the main Tharidia Things mod, adds interactive throwable dice with realistic physics simulation. Originally designed for the Tharidia roleplay experience, this mod brings immersive dice mechanics to any Minecraft world.
+
+Features:
+- Throwable dice items with realistic bounce physics
+- Random face landing (1-6) with visual representation
+- Gravity, air resistance, and ground friction simulation
+- Interactive pickup system
+- Auto-despawn after 30 seconds
+
+This is a modular component of the larger Tharidia ecosystem, designed to work independently or alongside other Tharidia mods.
+'''
+authors="Frenk02, THproject Team"
+
+[[dependencies.tharidia_littledice]]
     modId="neoforge"
     type="required"
     versionRange="[21.1,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.tharidiathings]]
+[[dependencies.tharidia_littledice]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1,1.22)"

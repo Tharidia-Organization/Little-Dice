@@ -1,0 +1,64 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "com.mysql",
+        "artifact": "mysql-connector-j"
+      },
+      "version": {
+        "range": "[8.3.0,9.0.0)",
+        "artifactVersion": "8.4.0"
+      },
+      "path": "META-INF/jarjar/mysql-connector-j-8.4.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.zaxxer",
+        "artifact": "HikariCP"
+      },
+      "version": {
+        "range": "[5.1.0,6.0.0)",
+        "artifactVersion": "5.1.0"
+      },
+      "path": "META-INF/jarjar/HikariCP-5.1.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "javazoom",
+        "artifact": "jlayer"
+      },
+      "version": {
+        "range": "[1.0.1,2.0.0)",
+        "artifactVersion": "1.0.1"
+      },
+      "path": "META-INF/jarjar/jlayer-1.0.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "uk.co.caprica",
+        "artifact": "vlcj"
+      },
+      "version": {
+        "range": "[4.8.2,5.0.0)",
+        "artifactVersion": "4.12.1"
+      },
+      "path": "META-INF/jarjar/vlcj-4.12.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "uk.co.caprica",
+        "artifact": "vlcj-natives"
+      },
+      "version": {
+        "range": "[4.8.0,5.0.0)",
+        "artifactVersion": "4.12.0"
+      },
+      "path": "META-INF/jarjar/vlcj-natives-4.12.0.jar",
+      "isObfuscated": false
+    }
+  ]
+}
