@@ -1,4 +1,4 @@
-# Tharidia Things - Little Dice
+# Tharidia - Little Dice
 
 > **⚠️ ALPHA VERSION - Under Active Development**  
 > This mod is in early alpha stage and may contain bugs or incomplete features. Use at your own risk.
@@ -87,9 +87,9 @@ This mod is a modular component of the Tharidia Project. While it functions inde
 
 ## Credits
 
-**Developed by**: THproject Team  
+**Developed by**: Frenk02, THproject Team  
 **Project**: Tharidia  
-**License**: All Rights Reserved
+**License**: GNU
 
 ---
 
