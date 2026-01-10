@@ -166,14 +166,6 @@ dependencies {
     
     // Tharidia Tweaks mod - local dependency (will be in same mods folder)
     // compileOnly for compile-time access, localRuntime for dev environment testing
-    // Always uses the latest JAR from the sibling project
-    compileOnly files('libs/tharidiatweaks-latest.jar')
-    runtimeOnly files('libs/tharidiatweaks-latest.jar')
-    
-    // Tharidia Features mod - local dependency for world border functionality
-    // Always uses the latest JAR from the sibling project
-    compileOnly files('libs/tharidiafeatures-latest.jar')
-    runtimeOnly files('libs/tharidiafeatures-latest.jar')
     
     // MySQL Connector for database communication - included in JAR via JarJar
     implementation 'com.mysql:mysql-connector-j:8.3.0'

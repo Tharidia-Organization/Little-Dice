@@ -1,6 +1,7 @@
-/run/
-/runs/
+/run/*
+/runs/*
 /.idea/
 /.gradle/
-/gradle/
-/build/
+/gradle/*
+/build/*
+/.vscode/
